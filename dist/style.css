@@ -1,0 +1,37 @@
+#playersData {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.player {
+    background-color: rgba(30, 11, 73, 0.842);
+    text-align: center;
+    border: solid rgba(7, 173, 202, 0.651) 2px;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+}
+
+img {
+    width: 250px;
+    background-color: rgba(145, 7, 7, 0.582);
+}
+
+#inputTeam {
+    font-family: fantasy;
+    width: calc(100vw - 250px);
+}
+
+#buttonFindTeam {
+    font-family: fantasy;
+}
+
+.dreamTeam {
+    font-family: fantasy;
+}
+
+#getDreamteam {
+    font-family: fantasy;
+}
